@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
+
+		<title>Relaxr Blog</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+
+
+		<header>
+			<div class="container">
+				<h1 class="logo">Relaxr</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="register.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section id="main">
+		<div class="container">
+			<div id="contact">
+				<form>
+					<fieldset>
+           		
+           			<legend id="legendstyle">Relaxing Begins Now!</legend>
+
+           			<div class="form-row">
+					 <label for="yourName"> Name: </label>
+					 <input type="text" name="name" placeholder=" Jane Doe" id="name" autofocus>
+				   
+				    <div class="form-row">
+					 <label for="yourEmail"> Email:</label>
+				 	  <input type="email" name="email" placeholder=" Relaxing@forever.com" id="email"> 			
+
+				 	<div class="form-row">
+						<label for="yourPhone"> Phone:</label>
+                	    <input type="text" name="phone" placeholder=" (777) 123-4567" maxlength="13" id="phone">
+
+                	   <div class="form-row">
+
+						<label for="yourPlanet">Planet:</label>
+						<select id="planets"> 
+						<option> </option>
+						<option>Sun</option>
+						<option>Moon</option>
+						<option>Mercury</option>
+						<option>Saturn</option>					
+						<option>Jupiter</option>					
+						<option>Venus</option>					
+						<option>Mars</option>					
+						<option>Uranus</option>					
+						<option>Neptune</option>					
+						<option>Pluto</option> 					
+						<option>Earth</option></select>
+
+					
+					<div class="form-row">
+
+
+					<label for="myInterest" class="interest">Register an Interest:</label>
+					
+
+					  <label for="checking" class="radioform"> <input type="radio" name="interested-in"  id= "checkedout" checked > Checking Out</label>
+					  <label for="gonefishing" class="radioform"><input type="radio" name="interested-in"  id="gonefishing" > Goin' Fishin'</label>
+					  <label for="abolishingwork" class="radioform"><input type="radio" name="interested-in" id="abolishingwork" > Abolishing Work</label>
+					  <label for="hammocktime" class="radioform"><input type="radio" name="interested-in" id="hammocktime" > Hammock Time	</label>
+					  <label for="dronology"class="radioform"><input type="radio" name="interested-in" id="dronology" > Dronology</label>  
+					  			
+					  	</div>
+
+						
+					<div class="form-row">
+               			
+               			 <label for="message" id="messagezone">Message Us!</label>
+                			<textarea id="messagehere" name="messageUs" rows="25"  onfocus="this.value=''; this.onfocus=null;">  Imagine the future of work with us. Get in touch and start relaxing sooner.</textarea>
+
+                	<div id="submitzone">
+
+				<input type="submit" value="Register Me!" class="yellow button">
+					
+						
+						</div>
+						</fieldset>
+					</form>
+				</section>
+			</div>
+		</section>
+
+		<footer>
+			<h4 class="logo">Relaxr</h4>
+
+			<ul>
+				<li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
+				<li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
+			</ul>
+
+			<p class="copyright">Copyright 2015. Relaxr.</p>
+		</footer>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="js/register.js"></script>
+	</body>
+</html>
